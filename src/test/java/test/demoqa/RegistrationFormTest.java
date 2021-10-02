@@ -1,16 +1,15 @@
 package test.demoqa;
 
-import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import test.TestBase;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class ToolsQATest extends TestBase {
+public class RegistrationFormTest extends TestBase {
 
     Faker faker = new Faker();
 
